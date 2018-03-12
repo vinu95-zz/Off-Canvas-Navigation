@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Off Canvas Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page">
+        <span class="menu-toggle">
+            <i class="menu-open fa fa-bars fa-lg"></i>
+            <i class="menu-close fa fa-times fa-lg"></i>
+        </span>
+        <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <main class="content">
+            <div class="content-inner">
+                <h1>Responsive Animated off Canvas Menu</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam obcaecati aliquid vero molestiae, veritatis et nostrum autem, nobis, unde fugiat libero. Libero explicabo repellat accusantium natus inventore vel voluptatibus, ad quo similique incidunt pariatur quibusdam accusamus voluptate, distinctio exercitationem nihil reiciendis fuga odit? Necessitatibus delectus odit porro labore minus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolores eligendi cum consequatur error dolore?</p>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        
+        var $page = $('.page');
+        $('.menu-toggle').on('click',function(){
+            $page.toggleClass('vinu');
+        });
+
+        $('.content').on('click',function(){
+            $page.removeClass('vinu');
+        });
+
+    </script>
+</body>
+</html>
