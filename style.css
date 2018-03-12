@@ -38,6 +38,7 @@ html,body {
     left: 0;
     display: block;
 /*     cursor: pointer; */
+    outline: none;
     width: 100px;
     height: 80px;
     background-color: #2E86AB;
