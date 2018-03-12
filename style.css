@@ -37,12 +37,21 @@ html,body {
     top: 0;
     left: 0;
     display: block;
-/*     cursor: pointer; */
-    outline: none;
+    cursor: pointer;
     width: 100px;
     height: 80px;
     background-color: #2E86AB;
     border-bottom-right-radius: 100%;
+}
+
+.menu-toggle:active{
+    border: none;
+    outline: none;
+}
+
+.menu-toggle:focus{
+    border: none;
+    outline: none;
 }
 
 .menu-toggle:active i {
