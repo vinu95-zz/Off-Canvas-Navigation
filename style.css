@@ -50,8 +50,7 @@ html,body {
 }
 
 .menu-toggle:focus{
-    border: none;
-    outline: none;
+    outline: 0;
 }
 
 .menu-toggle:active i {
