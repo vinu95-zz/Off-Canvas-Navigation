@@ -37,7 +37,7 @@ html,body {
     top: 0;
     left: 0;
     display: block;
-    cursor: pointer;
+/*     cursor: pointer; */
     width: 100px;
     height: 80px;
     background-color: #2E86AB;
