@@ -47,7 +47,8 @@ html,body {
 
 .menu-toggle:active{
     border: none;
-    outline: none;
+    outline: none !important;
+    box-shadow: none;
 }
 
 .menu-toggle:focus{
